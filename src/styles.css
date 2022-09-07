@@ -1,1 +1,73 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: rgb(16, 187, 162);
+}
+#calculadora {
+  margin-top: 50px;
+  color: white;
+  background-color: rgb(63, 58, 52);
+  width: 40vh;
+  height: 60vh;
+  text-align: center;
+  box-shadow: 0 0 10px 2px rgb(63, 58, 52);
+}
+
+.row {
+  /*padding-top: 20px;
+  padding-bottom: 20px;*/
+  height: 8.5vh;
+}
+
+
+#caja-operacion {
+  color: rgb(63, 58, 52);
+  background-color: white;
+  font-size: large;
+  text-align: right;
+  height: 8.75vh;
+}
+
+#caja-resultado {
+  color: rgb(63, 58, 52);
+  background-color: white;
+  font-size: medium;
+  text-align: right;
+  height: 8.75vh;
+}
+
+.caja {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.numero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid white;*/
+}
+
+.operacion {
+  background-color: rgb(16, 187, 162);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid white;*/
+}
+
+.numero:hover {
+  background-color: rgb(47, 43, 39);
+}
+
+.operacion:hover {
+  background-color: rgb(13, 141, 121);
+}
+
+.no-border {
+  border: 0;
+  box-shadow: none;
+  text-align: end;
+}
+
+
